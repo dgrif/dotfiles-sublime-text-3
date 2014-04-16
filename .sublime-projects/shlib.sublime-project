@@ -1,0 +1,10 @@
+{
+    "folders":
+    [
+        {
+            "name": "shlib",
+            "path": "../.shlib",
+            "follow_symlinks": true
+        }
+    ]
+}
