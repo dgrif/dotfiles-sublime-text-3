@@ -10,6 +10,7 @@
             ],
             "file_include_patterns": [
                 ".bashrc",
+                ".bashrc.local",
                 ".bash_logout",
                 ".bash_login",
                 ".profile",
