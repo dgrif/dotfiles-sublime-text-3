@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"ApplySyntax",
+		"AutoWrap",
+		"ColorPicker",
+		"Dotfiles Syntax Highlighting",
+		"Emmet",
+		"Evernote",
+		"Gist",
+		"GitGutter",
+		"Jinja2",
+		"LineEndings",
+		"Markdown Preview",
+		"Path Tools",
+		"SFTP",
+		"Shell Turtlestein",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimePythonIDE",
+		"SyncedSideBar",
+		"Theme - Soda",
+		"TinTin++ Syntax Highlighter",
+		"Tmux",
+		"Tomorrow Color Schemes",
+		"Vintageous"
+	]
+}

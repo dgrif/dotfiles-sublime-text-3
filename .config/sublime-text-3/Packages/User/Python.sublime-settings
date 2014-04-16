@@ -1,0 +1,20 @@
+{
+    // Python Specicic Settings
+
+    // Use Autowrap (Hard) Plugin for Python Files
+    "auto_wrap": true,
+    "auto_wrap_width": 80,
+    "auto_wrap_break_long_word": true,
+
+    // Use 80 Character Wide Lines, per PEP8
+    "rulers": [80],
+
+    // Always Use Spaces, Not Tabs
+    "translate_tabs_to_spaces": true,
+
+    // Always Trim Whitespace from EOL
+    "trim_trailing_white_space_on_save": true,
+
+    // Disable Soft Wrap
+    "word_wrap": false
+}

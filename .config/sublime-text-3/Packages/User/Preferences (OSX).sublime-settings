@@ -1,0 +1,27 @@
+{
+    // OS Specific Font Configuration
+    "font_face": "Menlo",
+    "font_size": 12.0,
+    "font_options":
+    [
+        "subpixel_antialias",
+        "no_bold"
+    ],
+
+    // OS Specific Caret Configuration
+    "caret_style": "phase",
+    "open_files_in_new_window": false,
+
+    // OS Specific Project Directory Path Configuration
+    "default_dir": "/home/oxsyn/Documents/Sublime Text 3/Projects",
+
+    // OS Specific SublimeGit Plugin Configuration
+    "git_executables": {
+        "git": ["/usr/bin/git"],
+        "legit": ["legit"]
+    },
+    "git_extensions": {
+        "git_flow": false,
+        "legit": true
+    }
+}

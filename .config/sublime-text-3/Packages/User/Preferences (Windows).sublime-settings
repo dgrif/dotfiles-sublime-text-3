@@ -1,0 +1,26 @@
+{
+    // OS Specific Font Configuration
+    "font_face": "Consolas",
+    "font_size": 10.0,
+    "font_options":
+    [
+        "subpixel_antialias",
+        "no_bold"
+    ],
+
+    // OS Specific Caret Configuration
+    "caret_style": "block",
+    "wide_caret": true,
+
+    // OS Specific Project Directory Path Configuration
+    "default_dir": "C:\\Users\\nfarrar\\Documents\\Sublime Text 3\\Projects",
+
+    // OS Specific SublimeGit Plugin Configuration
+    "git_executables": {
+        "git": [""],
+    },
+    "git_extensions": {
+        "git_flow": false,
+        "legit": false
+    }
+}
