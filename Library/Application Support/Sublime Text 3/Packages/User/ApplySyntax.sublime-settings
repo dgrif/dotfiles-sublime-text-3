@@ -1,0 +1,29 @@
+{
+
+
+    // ------------------------------------------------------------------ META /
+
+
+    // @Author:  Nathan Farrar
+    // @Email:   nathan.farrar@gmail.com
+    // @Website: http://nfarrar.io
+
+
+    // ---------------------------------------------------------- APPLY SYNTAX /
+
+
+    // reraise exceptions so so they will be viewable in console
+    "reraise_exceptions": true,
+
+    // default syntax for new files
+    "new_file_syntax": "markdown",
+
+    // custom syntax rules
+    "syntaxes": [
+    ]
+
+
+    // ------------------------------------------------------------------- END /
+
+
+}

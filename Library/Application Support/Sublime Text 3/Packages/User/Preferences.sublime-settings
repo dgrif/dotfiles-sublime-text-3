@@ -1,0 +1,409 @@
+{
+
+
+    // ------------------------------------------------------------------ META /
+
+
+    // @Author:  Nathan Farrar
+    // @Email:   nathan.farrar@gmail.com
+    // @Website: http://nfarrar.io
+
+
+    // ------------------------------------------------ OFFICIAL DOCUMENTATION /
+
+
+    // Settings                                             http://j.mp/1hFPeuE
+    // OSX Command Line                                     http://j.mp/1lm409k
+    // Key Bindings                                         http://j.mp/1lm4wUH
+
+
+    // ---------------------------------------------- UNOFFICIAL DOCUMENTATION /
+
+
+    // Settings                                             http://j.mp/1nvPlZe
+    // Settings (Reference)                                 http://j.mp/1nvR156
+    // Key Bindings                                         http://j.mp/1lm38la
+    // Build Systems                                        http://j.mp/1lm3bgR
+
+
+    // ----------------------------------------------------------------- TOOLS /
+
+
+    // Alfred Workflow Sublime Projects (OSX)               http://j.mp/1nwqNPX
+    // Marked2 (OSX)                                        http://j.mp/1nwqTqG
+    // Sublime Configuration Generator                      http://j.mp/1lm3hov
+    // Sublime Colorschemes                                 http://j.mp/1lm5y39
+    // Sublime Package Control                              http://j.mp/1lm5AIf
+
+
+    // ---------------------------------------------------------------- GUIDES /
+
+
+    // Sublime Text Macros                                  http://j.mp/1lm5r7R
+    // Tips and Shortcuts                                   http://j.mp/1lm5QqR
+
+    // https://gist.github.com/etrepat/1289965
+    // http://robdodson.me/blog/2012/06/23/sublime-text-2-tips-and-shortcuts/
+    // http://stackoverflow.com/questions/8839753/how-do-i-reformat-html-code-using-sublime-text-2
+    // http://sublimetexttips.com/7-handy-text-manipulation-tricks-sublime-text-2/
+    // http://superuser.com/questions/594451/how-to-remap-motions-with-a-count-in-sublime-text-2-vintage-mode
+
+
+    // -------------------------------------------------------------- PACKAGES /
+
+
+    // Afterglow Theme                                      http://j.mp/1lm3GaL
+
+    // Alignment                                            http://j.mp/1nwr8lA
+    // Clickable URLs                                       http://j.mp/1nwqVyU
+    // Dictionaries                                         http://j.mp/1lm3lVs
+    // DictionaryAutoComplete                               http://j.mp/1lm55xT
+    // Keymaps                                              http://j.mp/1lm5Tms
+    // SublimeTerminal                                      http://j.mp/1nwr9Gl
+
+    // BracketHighlighter                                   http://j.mp/1lm3Let
+    // GitGutter Package                                    http://j.mp/1lm3OqH
+    // SublimeLinter3                                       http://j.mp/1lm3NDc
+
+    // SublimeGit                                           http://j.mp/1nwqXXB
+    // SublimeMerge                                         http://j.mp/1nwr1qe
+    // SublimeSFTP                                          http://j.mp/1nwr31h
+    // SublimeSVN                                           http://j.mp/1nwr3yk
+
+
+    // ------------------------------------------------------- GLOBAL SETTINGS /
+
+
+    // the theme to use
+    "theme": "Afterglow.sublime-theme",
+
+    // additional theme variations, included with afterglow
+    // "theme": "Afterglow-magenta.sublime-theme",
+    // "theme": "Afterglow-orange.sublime-theme",
+    // "theme": "Afterglow-green.sublime-theme",
+
+    // automatically reopen the buffers from the previous session
+    // "remember_open_files": true,
+
+    // excludes the matching files from the side bar, goto anything, etc ...
+    "file_exclude_patterns":
+    [
+        "*.DS_store",
+        "*.pyc"
+    ],
+
+    // exclude the matching folders from the side bar, goto anything, etc ...
+    "folder_exclude_patterns":
+    [
+        ".git",
+        ".hg",
+        "__pycache__"
+    ],
+
+    // set the scrolling speed, 0 = disable smooth scrolling, 0 through 1
+    // scrolls slower than default, 1+ scrolls faster than default
+    // "scroll_speed": 1.2,
+
+    // hide the tabs’ close buttons until the mouse hovers over them
+    // "show_tab_close_buttons": true,
+
+    // mouse wheel scrolling changes the tab if the cursor is in the tab area
+    // "mouse_wheel_switches_tabs": false,
+
+
+    // ---------------------------------------------- WHITESPACE & INDENTATION /
+
+
+    // enable automatic indentation
+    "auto_indent": true,
+
+    // detect and modify translate_tab_to_spaces and tab_size when opening a
+    // buffer
+    "detect_indentation": true,
+
+    // draw whitespace characters in editor window
+    // default: none
+    // possible values: none, selection, all
+    "draw_white_space": "all",
+
+    // add white space up to the first open bracket when indenting
+    // default value: false
+    "indent_to_bracket": true,
+
+    // shift tab unindents text
+    "shift_tab_unindent": true,
+
+    // improve auto_indent behavior
+    // default: true
+    "smart_indent": true,
+
+    // number of spaces in a tab
+    "tab_size": 4,
+
+    // insert spaces instead of tab characters
+    // default: false
+    "translate_tabs_to_spaces": true,
+
+    // delete white space added by auto_indent
+    "trim_automatic_white_space": true,
+
+    // automatically trim white space on save
+    "trim_trailing_white_space_on_save": true,
+
+    // tab and backspace insert <tab_size> instead of a tab character
+    // per key press
+    // requires: translate_tabs_to_spaces: true
+    "use_tab_stops": true,
+
+    // ---------------------------------------------------------------- VISUAL /
+
+
+    // draw folder lables in bold
+    "bold_folder_labels": false,
+
+    // set the colorscheme to use
+    "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+
+    // draw editor window centered, rather than left aligned
+    "draw_centered": false,
+
+    // draw indentation guides
+    "draw_indent_guides": true,
+
+    // draw a border around the active window portion of the minimap
+    "draw_minimap_border": true,
+
+    // show buttons for code folding
+    "fold_buttons": true,
+
+    // fade code folding buttons when mouse is not present
+    "fade_fold_buttons": true,
+
+    // Font configuration omitted - this is set in the platform specific files
+    // in User - Platforms.
+
+    // font face to be used for editable text
+    // "font_face": "Source Code Pro",
+
+    // font rendering options
+    // values: bold, italic, no_antialias, gray_antialias, subpixel_antialias,
+    // directwrite (Windows).
+    // "font_options": [
+    //     "subpixel_antialias",
+    //     "no_round"
+    // ],
+
+    // size of the font for editable text
+    // "font_size": 12,
+
+    // display the editor gutter
+    "gutter": true,
+
+    // highlight the current line
+    "highlight_line": true,
+
+    // softi-ndent soft-wrapped lines
+    "indent_subsequent_lines": true,
+
+    // display line numbers in gutter
+    "line_numbers": true,
+
+    // add additional pixel spacing above each line
+    "line_padding_top": 0,
+
+    // add additional pixel spacing below each line
+    "line_padding_bottom": 0,
+
+    // spacing between gutter and editable text
+    "margin": 10,
+
+    // underline brackets surrounding the cursor
+    "match_brackets": true,
+
+    // apply match_brackets highlighting to angle brackets
+    "match_bracktets_angle": true,
+
+    // apply match_brackets highlighting to braces
+    "match_brackets_braces": true,
+
+    // only highlight brackets adjacent to editor cursor
+    "match_brackets_content": false,
+
+    // apply match_brackets highlighting to square brackets
+    "match_brackets_square": true,
+
+    // enable visualization of matching tags with HTML & XML
+    "match_tags": true,
+
+    // highlight all occurences of selected text
+    "match_selection": true,
+
+    // set how overlay scrollbars are shown (only shown while scrolling)
+    // options: "system", "enabled", "disabled"
+    "overlay_scroll_bars": "enabled",
+
+    // preview file contents when clicking on a file in the sidebar
+    "preview_on_click": true,
+
+    // column widths at which to display vertical rules
+    "rulers": [80],
+
+    // scroll past the end of file into an empty, blank content area
+    "scroll_past_end": false,
+
+    // show the full path to files in the titlebar
+    "show_full_path": true,
+
+    // enable animations when expanding and collapsing sidebar folders
+    "tree_animation_enabled": true,
+
+    // softwrap long lines rathern than clip
+    "word_wrap": true,
+
+    // the column at which to softwrap long lines, 0 = window width
+    "wrap_width": 0,
+
+
+    // --------------------------------------------------- AUTOMATIC BEHAVIORS /
+
+
+    // create a new window on startup
+    "create_window_at_startup": false,
+
+    // quit application when all buffers are closed
+    "close_windows_when_empty": true,
+
+    // files containing null bytes are opened with hexidecimal encoding
+    "enable_hexadecimal_encoding": true,
+
+    // automaticly pair quotes, brackets, etc ...
+    "auto_match_enabled": true,
+
+    // write newline to end of file (if one doesn't exist) when saving
+    "ensure_newline_at_eof_on_save": true,
+
+    // copy selected textinto the find panel when it’s shown
+    "find_selected_text": true,
+
+    // when quitting, close all windows without prompting - all changes are
+    // preserved and restored at next startup
+    "hot_exit": true,
+
+    // save file(s) automatically when the current buffer(s) is(are) not active
+    "save_on_focus_lost": false,
+
+    // show the build panel results when building
+    "show_panel_on_build": true,
+
+    // a list of characters that divide strings into words
+    "word_separators": "./\\()\"'-:,.;<>~!@#%^&*|+=[]{}`~?",
+
+
+    // ------------------------------------------------ SYSTEM & MISCELLANIOUS /
+
+
+    // the default encoding to use when creating a new file
+    "default_encoding": "UTF-8",
+
+    // detect slow plugins
+    "detect_slow_plugins": true,
+
+    // word list to be used by the spell checker - accepts a path rooted at the
+    // data directory (such as Packages/Language - English/en_US.dic)
+    // "dictionary": ,
+
+    // the line-ending characters to use
+    // values: system (OS-dependant), windows (CRLF) and unix (LF)
+    "default_line_ending": "unix",
+
+    // disable dragging text
+    "drag_text": false,
+
+    // the encoding to use when the encoding can’t be determined automatically
+    // ASCII, UTF-8 and UTF-16 encodings will be detected automatically
+    "fallback_encoding": "UTF-8",
+
+    // list of ignored spell check words
+    // "ignored_words": [],
+
+    // returns true if the buffer is an input field in a dialog
+    // is_widget
+
+    // disable spell checking
+    "spell_check": false,
+
+
+    // ------------------------------------------------------------- OMPLETION /
+
+
+    // enable auto completion
+    "auto_complete": true,
+
+    //
+    "auto_complete_size_limit": 1,
+
+    //
+    "auto_complete_commit_on_tab": 1,
+
+    //
+    "auto_complete_with_fields": true,
+
+    // show autocomplete with an active snippet
+    // only relevant if autocomplete_on_tab is true
+    "copy_with_empty_selection": true,
+
+    // pressing tab inserts best matching completion
+    "tab_completion": true,
+
+
+    // ---------------------------------------------- BUILD & ERROR NAVIGATION /
+
+
+    // list of paths to add to build systems by default
+    // "build_env": [],
+
+    // folder to start looking for offending files based on information
+    // extracted with result_file_regex and result_line_regex
+    // "result_base_dir":
+
+    // regular expression used to extract error information from some output
+    // dumped into a view or output panel
+    // "result_file_regex":
+
+    // regular expression used to extract error information from some output
+    // dumped into a view or output panel
+    // "result_line_regex":
+
+
+    // ------------------------------------------------------ FILE & DIRECTORY /
+
+
+    // the path at which to save .sublime-workspace files rather than in the
+    // same directory as the .sublime-project file
+    // "default_dir": ,
+
+
+    // ----------------------------------------------------------------- INPUT /
+
+
+    // force the buffer will ignore key strokes - useful when emulating vim’s
+    // modal behavior
+    "command_mode": false,
+
+
+    // ------------------------------------------------------- AFTERGLOW THEME /
+
+
+    // the size of the file tabs
+    "tabs_medium": true,
+
+    // make the status bar brighter
+    "status_bar_brighter": true,
+
+    // color inactive tabs
+    "color_inactive_tabs": true
+
+
+    // ------------------------------------------------------------------- END /
+
+}

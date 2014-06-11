@@ -1,0 +1,51 @@
+{
+
+
+    // ------------------------------------------------------------------ META /
+
+
+    // @Author:  Nathan Farrar
+    // @Email:   nathan.farrar@gmail.com
+    // @Website: http://nfarrar.io
+
+
+    // -------------------------------------------------------------- MARKDOWN /
+
+
+    // markdown extensions
+    "extensions":
+    [
+        "md",
+        "mdown",
+        "markdown",
+        "mdwn",
+        "mmd",
+        "txt"
+    ],
+
+    // set custom colorscheme for markdown files
+    // "color_scheme": "Packages/Tomorrow Color Schemes/Tomorrow-Night.tmTheme",
+
+    // soft-indent soft-wrapped lines
+    "indent_subsequent_lines": true,
+
+    // disable rulers
+    "rulers": [],
+
+    // enable spell checking
+    "spell_check": true,
+
+    // do not remove trailing white space on save
+    "trim_trailing_white_space_on_save": false,
+
+    // soft wrap long lines
+    "word_wrap": true,
+
+    // soft wrap long lines at window width
+    "wrap_width": 0
+
+
+    // ------------------------------------------------------------------- END /
+
+
+}

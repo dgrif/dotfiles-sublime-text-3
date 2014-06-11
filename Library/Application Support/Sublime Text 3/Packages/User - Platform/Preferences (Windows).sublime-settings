@@ -1,0 +1,56 @@
+{
+
+
+    // ------------------------------------------------------------------ META /
+
+
+    // @Author:  Nathan Farrar
+    // @Email:   nathan.farrar@gmail.com
+    // @Website: http://nfarrar.io
+
+
+    // --------------------------------------------------- WINDOWS PREFERENCES /
+
+
+    // values: "blink", "phase" (OSX), "smooth", "solid" and "wide"
+    "caret_style": "block",
+
+    // the path at which to save .sublime-workspace files rather than in the
+    // same directory as the .sublime-project file
+    // "default_dir": "C:\\Users\\nfarrar\\Documents\\Sublime Text 3\\Projects",
+
+    // font face to be used for editable text
+    "font_face": "Consolas",
+
+    // font rendering options
+    // values: bold, italic, no_antialias, gray_antialias, subpixel_antialias,
+    // directwrite (Windows).
+    "font_options": [
+        "draw_normal",
+        "draw_active",
+        "no_round",
+        "subpixel_antialias"
+    ],
+
+    // size of the font for editable text
+    "font_size": 12,
+
+    // platform specific configuration for SublimeGit package
+    "git_executables": {
+        "git": [""],
+    },
+
+    // platform specific configuration for SublimeGit package
+    "git_extensions": {
+        "git_flow": false,
+        "legit": false
+    },
+
+    // enable wide caret
+    "wide_caret": true
+
+
+    // ------------------------------------------------------------------- END /
+
+
+}

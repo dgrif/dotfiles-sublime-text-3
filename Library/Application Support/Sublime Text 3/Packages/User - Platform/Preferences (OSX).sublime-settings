@@ -1,0 +1,70 @@
+{
+
+
+    // ------------------------------------------------------------------ META /
+
+
+    // @Author:  Nathan Farrar
+    // @Email:   nathan.farrar@gmail.com
+    // @Website: http://nfarrar.io
+
+
+    // ------------------------------------------------------- OSX PREFERENCES /
+
+
+    // values: "blink", "phase" (OSX), "smooth", "solid" and "wide"
+    "caret_style": "phase",
+
+    // the path at which to save .sublime-workspace files rather than in the
+    // same directory as the .sublime-project file
+    // "default_dir": "/home/nfarrar/.config/sublime-text-3/.workspace",
+
+    // font face to be used for editable text
+    "font_face": "Source Code Pro",
+
+    // font rendering options
+    // values: bold, italic, no_antialias, gray_antialias, subpixel_antialias,
+    // directwrite (Windows).
+    "font_options": [
+        "draw_normal",
+        "draw_active",
+        "no_round",
+        "subpixel_antialias"
+    ],
+
+    // size of the font for editable text
+    "font_size": 12,
+
+    // platform specific configuration for SublimeGit package
+    "git_executables": {
+        "git": ["/usr/bin/git"],
+        "legit": ["legit"]
+    },
+
+    // platform specific configuration for SublimeGit package
+    "git_extensions": {
+        "git_flow": false,
+        "legit": true
+    },
+
+    // use hardware rendering with retina display (OSX)
+    "gpu_window_buffer": true,
+
+    // pressing up while on the first line of the file will move the cursor to
+    // to the beginning of the file (OSX)
+    "move_to_limit_on_up_down": true,
+
+    // do not create a new window when opening additional files (OSX)
+    "open_files_in_new_window": false,
+
+    // use simple full screen (OSX)
+    "use_simple_full_screen": true,
+
+    // enable wide caret
+    "wide_caret": true
+
+
+    // ------------------------------------------------------------------- END /
+
+
+}
