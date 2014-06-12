@@ -26,7 +26,7 @@ Install instructions. Cause I'm nice. Fix the path if you're not on OSX.
 
 1. Fork the repo, modify configs and track your changes. Win.
 2. Install myrepos, register the repo, and automate your setup.
-3. Install alfred2 & the sublime-project workflow. Sexytime.
+3. Install [alfred2](http://www.alfredapp.com/) & the [sublime-project workflow](https://github.com/bigluck/alfred2-sublimeprojects). Sexytime.
 
 Register with myrepos:
 
