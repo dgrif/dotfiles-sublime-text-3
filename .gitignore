@@ -1,1 +1,18 @@
-*.DS_Store
+# ignore everything
+*
+
+# whitelisted files
+!.gitignore
+!.gitmodules
+!dotfiles-sublime.sublime-project
+!README.md
+!Packages/Package\ Control
+!Packages/User/ApplySyntax.sublime-settings
+!Packages/User/Default\ \(OSX\).sublime-keymap
+!Packages/User/Markdown.sublime-settings
+!Packages/User/Package\ Control.sublime-settings
+!Packages/User/Preferences.sublime.settings
+!Packages/User/Python.sublime.settings
+!Packages/User\ -\ Platform/Preferences\ \(Linux\).sublime-settings
+!Packages/User\ -\ Platform/Preferences\ \(OSX\).sublime-settings
+!Packages/User\ -\ Platform/Preferences\ \(Windows\).sublime-settings
